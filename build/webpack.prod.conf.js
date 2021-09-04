@@ -25,7 +25,7 @@ module.exports = merge(webpackConfigBase(true), {
   },
   plugins: [
     //静态资源输出到根目录
-    new copyWebpackPlugin({
+    /*  new copyWebpackPlugin({
       patterns: [
         {
           from: path.resolve(__dirname, '../public'),
@@ -33,11 +33,11 @@ module.exports = merge(webpackConfigBase(true), {
           globOptions: {
             dot: true,
             gitignore: true,
-            ignore: ['**/index.html*']
+            ignore: ['**!/index.html*']
           }
         }
       ]
-    }),
+    }),*/
     new miniCssExtractPlugin({
       filename: './css/[name].[contenthash].css',
       chunkFilename: './css/[id].[contenthash].css'
