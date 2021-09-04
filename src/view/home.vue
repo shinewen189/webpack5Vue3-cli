@@ -11,7 +11,9 @@
 <script>
 export default {
   name: 'home',
-  mounted() {}
+  mounted() {
+    console.log(223123)
+  }
 }
 </script>
 
