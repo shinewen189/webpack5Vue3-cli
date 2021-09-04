@@ -12,7 +12,7 @@
 export default {
   name: 'home',
   mounted() {
-    const a = new Object()
+    const b = new Object()
   }
 }
 </script>
