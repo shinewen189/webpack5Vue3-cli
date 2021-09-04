@@ -4,10 +4,7 @@
 
 <script>
 export default {
-  name: 'about',
-  mounted() {
-    const a = new Array()
-  }
+  name: 'about'
 }
 </script>
 
