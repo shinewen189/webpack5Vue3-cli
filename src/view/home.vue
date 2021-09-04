@@ -11,9 +11,7 @@
 <script>
 export default {
   name: 'home',
-  mounted() {
-    const b = new Object()
-  }
+  mounted() {}
 }
 </script>
 
