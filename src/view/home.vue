@@ -36,6 +36,7 @@ export default {
   b {
     width: 100px;
     height: 100px;
+    background-color: #fff;
   }
 }
 </style>
