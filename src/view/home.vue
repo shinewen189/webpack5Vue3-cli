@@ -29,6 +29,7 @@ export default {
     display: inline-block;
 
     &:hover {
+      color: red;
       background: #ffffff;
     }
   }
