@@ -20,7 +20,7 @@ export default {
   width: 200px;
   height: 200px;
   background: red;
-  color: #fff;
+  color: #ffffff;
   box-sizing: border-box;
 
   span {
