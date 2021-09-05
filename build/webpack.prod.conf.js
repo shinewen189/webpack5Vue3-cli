@@ -12,7 +12,7 @@ const webpackConfigBase = require('./webpack.base.conf')
 module.exports = merge(webpackConfigBase(true), {
   mode: 'production',
   output: {
-    path: path.resolve(__dirname, '../dist'),
+    path: path.resolve(__dirname, './dist'),
     filename: './js/[name].[chunkhash].js',
     publicPath: './',
     clean: true

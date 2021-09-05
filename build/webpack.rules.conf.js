@@ -18,9 +18,7 @@ module.exports = prodMode => {
       },
       exclude: /node_modules/
     },
-
     // css-loader
-
     {
       test: /\.less$/,
       use: ['style-loader', 'css-loader', 'postcss-loader', 'less-loader'] // 从右向左解析原则
