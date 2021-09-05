@@ -16,7 +16,7 @@ jobs:
           node-version: '14.x'
 
       - name: Install
-        run: cnpm install # 安装依赖
+        run: npm install # 安装依赖
 
       - name: Build
         run: npm run build # 打包
@@ -28,4 +28,4 @@ jobs:
           github_token: ${{ secrets.VUE3_DEV }} # secret 名
           user_name: ${{ secrets.MY_USER_NAME }}
           user_email: ${{ secrets.MY_USER_EMAIL }}
-          commit_message: Update Vite2.x + Vue3.x + TypeScript Starter # 部署时的 git 提交信息，自由填写
+          commit_message: Update # 部署时的 git 提交信息，自由填写
