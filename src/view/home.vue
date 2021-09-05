@@ -26,6 +26,7 @@ export default {
   span {
     width: 100px;
     height: 100px;
+    color: #ffffff;
     display: inline-block;
 
     &:hover {
