@@ -19,7 +19,6 @@ export default {
 .box {
   width: 200px;
   height: 200px;
-  border: 1px solid #eee;
   background: red;
   color: #ffffff;
   box-sizing: border-box;
