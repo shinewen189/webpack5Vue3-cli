@@ -7,8 +7,6 @@
   "license": "ISC",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "webpack serve --hot",
     "dev": "cross-env envMode=dev webpack serve --config build/webpack.dev.conf.js  --color",
     "lint": "eslint --ext .js,.vue src",
     "format": "prettier --write src",

@@ -28,6 +28,7 @@ export default {
     height: 100px;
     color: #ffffff;
     display: inline-block;
+    font-size: 14px;
 
     &:hover {
       background: #ffffff;
